@@ -1,0 +1,16 @@
+/* RegionInfo.css */
+.region-info {
+    margin-top: 20px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .region-info h3 {
+    margin-bottom: 10px;
+  }
+  /* RegionInfo.css */
+.region-info {
+  width: 200px; /* Set the width as needed */
+  height: 200px; /* Set the height as needed */
+  /* Add any additional styling for the region info component */
+}

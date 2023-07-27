@@ -1,0 +1,52 @@
+/* Sidebar.css */
+.sidebar {
+  width: 200px;
+  height: 100%;
+  background-color: #f0f2f5;
+  padding: 20px;
+  transition: width 0.3s ease;
+}
+
+.collapsed {
+  width: 50px;
+}
+
+.sidebar-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.sidebar-icon {
+  font-size: 24px;
+  margin-right: 8px;
+}
+
+.sidebar-title {
+  font-weight: bold;
+}
+
+.sidebar-menu {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar-menu li {
+  margin-bottom: 10px;
+}
+
+.sidebar-menu a {
+  text-decoration: none;
+  color: #333;
+}
+
+.sidebar-toggle {
+  position: absolute;
+  bottom: 20px;
+  right: 10px;
+  background-color: #1890ff;
+  color: #fff;
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 4px;
+}

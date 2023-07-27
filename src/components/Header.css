@@ -1,0 +1,13 @@
+/* Header.css */
+.header {
+    background-color: #1890ff;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .login-btn,
+  .profile-btn {
+    margin-left: 10px;
+  }
+  

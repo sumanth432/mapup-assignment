@@ -1,0 +1,16 @@
+/* Map.css
+.map-container {
+  display: flex;
+  flex: 1;
+  height: calc(100vh - 64px); 
+  width: calc(100vw - 200px); 
+  margin-left: 200px;
+} */
+
+
+.map-container {
+  flex: 1;
+  min-height: 300px; 
+  padding: 20px;
+}
+

@@ -1,0 +1,65 @@
+/* App.css */
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .header {
+    background-color: #1890ff;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .sidebar {
+    background-color: #f0f2f5;
+    width: 200px;
+    padding: 20px;
+  }
+  
+  .content {
+    flex: 1;
+    display: flex;
+  }
+  
+  .map-container {
+    flex: 1;
+  }
+  
+  .footer {
+    background-color: #f0f2f5;
+    padding: 10px;
+    text-align: center;
+  }
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .content {
+    flex: 1;
+    display: flex;
+  }
+  
+  .map-container {
+    flex: 1;
+    padding: 20px;
+    /* Add any additional styling for the map container */
+  }
+
+.header {
+    height: 64px; /* Adjust this height as needed */
+  }
+  
+  .footer {
+    height: 40px; /* Adjust this height as needed */
+  }
+  
